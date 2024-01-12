@@ -1,0 +1,176 @@
+/* Global CSS */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+h1, h2, h3{
+    color: #151414;
+}
+p{
+    font-size: 16px;
+    color: #444343;
+    margin: 20px 0;
+    line-height: 20px;
+}
+.btn-primary{
+    padding: 21px 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f15822;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-secondary{
+    padding: 21px 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Nav CSS */
+header{
+    background-image: url('./images/banner/banner1.png');
+    background-size: cover;
+}
+nav{
+    text-align: center;
+    padding: 60px 0;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 50px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #151414;
+    border: 2px solid #f15822;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.banner{
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 230px;
+    padding-bottom: 100px;
+    width: 525px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* Failure Section CSS */
+main{
+    max-width: 1140px;
+    margin: 50px auto;
+}
+
+.failure{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.failure h2,.failure p{
+    width: 416px;
+}
+.failure ul li{
+    list-style-type: circle;
+}
+.failure img{
+    width: 450px;
+}
+
+/* Plan Section Css */
+.plans{
+    margin: 100px 0;
+    
+}
+.plans h2{
+    text-align: center;
+}
+.plan-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.lists{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Call To Action CSS */
+.call-to-action{
+    background-image: url('./images/gradient2.png'), url('./images/watch.png');
+    background-size: cover;
+    height: 200px;
+    padding: 60px 64px;
+    border-radius: 10px;
+}
+.call-to-action h2{
+    color: white;
+}
+
+/* Footer Css */
+footer{
+    background-color: #151414;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    height: 480px;
+    margin: 0 auto;
+    padding: 140px 0 0 0;
+}
+.footer-left{
+    width: 485px;
+}
+.footer-left h2, .footer-left p{
+    color: white;
+}
+.footer-left > a{
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: white;
+}
+.social-links a{
+    margin-right: 20px;
+}
+
+.footer-right h3{
+    color: white;
+    font-size: 25px;
+}
+.footer-right form input[type="email"]{
+    display: block;
+    width: 325px;
+    padding: 20px;
+    margin: 30px 0 20px 0;
+    border-radius: 10px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+
+}
